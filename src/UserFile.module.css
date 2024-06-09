@@ -1,0 +1,45 @@
+body {
+    background-color: rgba(181, 116, 241, 0.516);
+}
+.userFile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #95f9f4;
+    border-radius: 8px;
+    border: 2px solid greenyellow;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    align-items: center;
+    margin: 20px;
+    box-shadow:  6px 6px 6px 10px rgba(0, 0, 0, 0.573);
+  }
+  
+ 
+  .userFile img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 50px;
+  }
+  
+  .userFile h1{
+    margin-bottom: 50px;
+  }
+  .userFile p{
+    margin-bottom: 50px;
+  }
+  .userFile button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color:#95f99a;
+  }
